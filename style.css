@@ -26,10 +26,95 @@ button {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    border-color: transparent;
 }
 .container1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-direction: row;
+    
+}
+.card {
+    gap: 10px;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: #3882f6;
+}
+
+.four {
+    display: flex;
+    background-color: gray;
+    
+    
+}
+.container4 {
+ display: flex;
+ 
+ flex-direction: column;
+ padding-left: 300px;
+ padding-right: 300px;
+ font-size: 28px;
+}
+
+.bottomtxt {
+    display: flex;
+    align-self: flex-end;
+}
+
+.five {
+    display: flex;
+    justify-content: center;
+}
+
+.container5 {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 100px;
+    width: 500px;
+    background-color: #3882f6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header5 {
+    font-size: 28px;
+    color: white;
+    
+    
+}
+
+.text5 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button2 {
+
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 46px;
 }
