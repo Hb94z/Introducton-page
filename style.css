@@ -1,6 +1,6 @@
 .header {
-    height: 100px;
-    background-color: #1F2937;
+    height: 40px;
+    background-color: #3782eb;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -36,7 +36,6 @@ body  {
 .steak {
     height: 150px;
     width: 200px;
-    
 }
 
 img {
@@ -44,7 +43,6 @@ img {
     height:auto;
 }
     
-
 
 .button1 {
     background-color: #3882f6;
@@ -65,8 +63,6 @@ img {
     font-weight: 800;
     color: white;
     font-size: 48px;
-
-
 }
 
 .twosmall {
@@ -78,7 +74,6 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
 }
 
 .three {
@@ -102,7 +97,8 @@ img {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
@@ -110,26 +106,30 @@ img {
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 200px;
 }
 
 .preview {
-    height: 100px;
-    width: 125px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .four {
     display: flex;
-    background-color: gray;
+    background-color: #E5E7Eb;
     display: flex;
     flex-direction: column;
     font-size: 36px;
     font-style: italic;
     align-items: center;
-    padding: 46px;   
+    padding: 46px; 
+    color: #1F2937;  
 }
 
 .toptxt {
-    width: 400px;
+    width: 700px;
 }
 
 
@@ -137,14 +137,15 @@ img {
 .bottomtxt {
     display: flex;
     justify-content: flex-end;
-    width: 400px;
+    width: 700px;
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
 }
 
 .five {
     display: flex;
-    justify-content: center;
-   
-   
+    justify-content: center;  
 }
 
 .container5 {
@@ -155,8 +156,6 @@ img {
     height: 50px;
     width: 700px;
     background-color: #3882f6;
-    padding-top: 0px;
-    padding-bottom: 0px;
     font-size: 12px;
     color: white;
     justify-content: space-around;
@@ -166,42 +165,29 @@ img {
     padding-bottom: 26px;
     padding-left: 46px;
     padding-right: 46px;
-    
+    flex-wrap: wrap;
 }
 
 .header5 {
-    font-size: 18px;
-  
-    
-    
-    
+    font-size: 18px;   
 }
 
 .text5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-
 }
 
 .button2 {
-
-    
-    
     background-color: #3882f6;
     color: white;
-   
+    border-color: white;
+    border-bottom-color: whiteS;
     font-size: 18px;
     border-radius: 10px;
     width: 100px;
-    
-    border-color: white;
     height: 28px;
-    margin-top: 16px;
-   
-    
-    
+    margin-top: 16px;  
 }
 
 .footer {
